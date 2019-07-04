@@ -1,7 +1,7 @@
 a,b = map(int,input().split())
 for k in range(a+1,b):
-    s=0
-    temp=k
+    s = 0
+    temp = k
     while(temp>0):
         f=temp%10
         s+=f**3
