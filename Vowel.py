@@ -1,5 +1,9 @@
-ch = input()
-if (ch == 'a' or ch == 'e' or ch =='i' or ch == 'o' or ch == 'u' or ch == 'A' or ch == 'E' or ch == 'I' or ch == 'O' or ch == 'U'):
-    print("Vowel")
-else:
-    print("Consonant")
+a=input()
+l=('a','e','i','o','u')
+if(a>='a' and a<='z'):
+    if a in l:
+        print("Vowel")
+    else:
+        print("Consonant")
+    else:
+        print("Invalid")
