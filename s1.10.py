@@ -1,2 +1,2 @@
-xyz = input()
+xyz=input()
 print(len(xyz))
