@@ -5,5 +5,5 @@ if(a>='a' and a<='z'):
         print("Vowel")
     else:
         print("Consonant")
-    else:
-        print("Invalid")
+else:
+    print("Invalid")
