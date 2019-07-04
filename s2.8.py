@@ -1,4 +1,4 @@
-a,b= map(int,input().split())
+a,b = map(int,input().split())
 for k in range(a+1,b):
     s=0
     temp=k
