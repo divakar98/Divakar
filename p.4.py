@@ -1,4 +1,4 @@
-a=int(input())
+a = int(input())
 def fact(a)
    if n==1:
        return 1
